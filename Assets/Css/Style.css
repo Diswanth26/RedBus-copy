@@ -78,7 +78,7 @@ li {
 .redbus-header img{
     height: 3rem;
     width: 6rem;
-    margin-left: 76px;
+    margin-left: 0px;
     cursor: pointer;
 }
 .vertical_seperator{
