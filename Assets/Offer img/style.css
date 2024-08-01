@@ -325,6 +325,12 @@ td {
     gap: 2rem;
     line-height: 20px;
 }
+.footer_text{
+    font-weight: 500;
+}
+.footer_items{
+    font-weight: 500;
+}
 b, strong {
     font-weight: 700;
 }
