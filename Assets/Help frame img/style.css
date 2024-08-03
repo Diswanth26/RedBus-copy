@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    margin: 0;
+    font-family: Inter;
+    background-color: #f0f1f2;
+}
+.main-warapper-transition-down {
+    animation: slideInFromTop .6s ease-out 0s 1;
+}
+@keyframes slideInFromTop{
+    0% {
+        transform: translateY(-15%);
+    }
+    
+    100% {
+        transform: translateY(0);
+    }
+}
+.redbuddyHeaderText {
+    color: #d84e55;
+    font-weight: 600;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+.languageHeader {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: auto;
+}
+.imageicons {
+    margin-left: 16px;
+    cursor: pointer;
+}
+.languagePreference {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000;
+    margin-left: 4px;
+    cursor: pointer;
+}
+span {
+    line-height: 1.6;
+}
+.main-login {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.login-textDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin-left: 20px;
+}
+.login-question {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #1034d9;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.main-warapper-transition {
+    animation: slideInFromBottom 1.5s ease-out 0s 1;
+}
+@keyframes slideInFromBottom{
+    0% {
+        transform: translateY(15%);
+    }
+    
+    100% {
+        transform: translateY(0);
+    }
+}
+.faqContainer {
+    margin: 10px 0;
+}
+.faqHeader {
+    margin-bottom: 10px;
+    padding: 0 16px;
+}
+.faq, .faqText {
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    line-height: 20px;
+}
+
+.faq {
+    font-weight: 700;
+    font-size: 16px;
+}
+.faqText {
+    font-weight: 400;
+    font-size: 14px;
+}
+.faqCard {
+    display: flex;
+    box-sizing: border-box;
+    padding: 16px;
+    flex-direction: column;
+    background-color: #fff;
+}
+.gridrow {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0, auto));
+    row-gap: 12px;
+    justify-items: center;
+}
+.innerObjectsGrid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 70px;
+    cursor: pointer;
+}
+.subrow1Grid {
+    margin-bottom: 6px;
+    min-height: 30px;
+}
+
+.subrow1, .subrow1Grid, .subrow2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #354044;
+}
+.issue-header {
+    padding: 0 16px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.content-subheader, .issue-header {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+}
+.list-row, .list-row-white {
+    background-color: #fff;
+}
+
+.list-row {
+    box-shadow: 0 3px 11px 0 #c2c2c2;
+    margin-bottom: 20px;
+}
+.listitems, .listitemsNoBorder {
+    display: flex;
+    padding: 4px 12px 4px 20px;
+    cursor: pointer;
+}
+
+.listitems {
+    border-bottom: 1px solid #e8e4e4;
+}
+.w12, .w76 {
+    display: flex;
+}
+.w12 {
+    flex-direction: row;
+    align-items: center;
+}
+.listitems>div:first-child>img, .listitemsNoBorder>div:first-child>img {
+    width: 24px;
+    height: 24px;
+}
+
+.listitems img {
+    text-align: center;
+    margin: auto;
+}
+.w76 {
+    font-weight: 700;
+    width: 74%;
+    flex: 2;
+    flex-direction: column;
+    padding: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    justify-content: center;
+}
+.parentText, .subText {
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    letter-spacing: .86px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.parentText {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1d1d1d;
+}
+.subText {
+    font-size: 14px;
+    font-weight: 500;
+    color: #3e3e52;
+}
