@@ -181,14 +181,14 @@ li {
     width: 22px;
 }
 .secondary-item a{
-    color: black;
+    color: #424141;
 }
 .name-secondary-tool{
     font-family: "Nunito Sans", sans-serif;
     white-space: nowrap;
     margin: 0 4px 0 2px;
     font-weight: 500;
-    color: #1d1d1d;
+    color: #504d4d;
     border-radius: 0.5rem;
     cursor: pointer;
     transition: all 500ms;
