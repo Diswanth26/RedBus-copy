@@ -71,7 +71,7 @@ a:-webkit-any-link {
     line-height: 1.25rem;
     font-weight: 400;
     font-size: 0.875rem;
-    color: var(--clr-white);
+    color: white;
     -webkit-text-decoration: none;
     text-decoration: none;
     padding: 1.25rem 0.5rem;

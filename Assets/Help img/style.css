@@ -180,6 +180,9 @@ li {
     margin-right: 0.375rem;
     width: 22px;
 }
+.secondary-item a{
+    color: #fff;
+}
 .name-secondary-tool{
     font-family: "Nunito Sans", sans-serif;
     white-space: nowrap;
