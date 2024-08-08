@@ -13,6 +13,13 @@ body {
     font-family: Inter;
     background-color: #f0f1f2;
 }
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 10px;
+}
 .main-warapper-transition-down {
     animation: slideInFromTop .6s ease-out 0s 1;
 }
