@@ -102,6 +102,9 @@ li {
     text-align: center;
     position: relative;
 }
+.redbus-vertical:hover{
+    background-color: #cfc7c7;
+}
 .main-header .redbus-header .redbus-nav-tools .redbus-vertical.active{
     background-color: #d84e55;
 }
