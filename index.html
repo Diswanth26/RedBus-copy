@@ -134,7 +134,7 @@
                                     <div class="cards-offers">
                                         <span class="left-arrow">
                                             <span class="left-scroll">
-                                                <i class="fa-solid fa-angle-left symbols-left"></i>
+                                                <i class="fa-solid fa-angle-left symbols-left" id="left-scrolls"></i>
                                             </span>
                                         </span>
                                         <a href="./Assets/indexOffer.html">
@@ -268,7 +268,7 @@
                                         </a>
                                         <span class="right-arrow">
                                             <span class="right-scroll">
-                                                <i class="fa-solid fa-angle-right symbols-right"></i>
+                                                <i class="fa-solid fa-angle-right symbols-right" id="right-scrolls"></i>
                                             </span>
                                         </span>
                                     </div>
@@ -276,6 +276,19 @@
                             </div>
                         </div>
                     </div>
+                    <script>
+                        let scrollContainer=document.querySelector(".cards-offers");
+                        let leftArrow=document.getElementById("left-scrolls");
+                        let rightArrow=document.getElementById("right-scrolls");
+
+                        scrollContainer.addEventListener("wheel",(evt)=>{
+                            evt.preventDefault();
+                            scrollContainer.scrollLeft+=evt.deltaY;
+                        })
+
+                    </script>
+
+
                     <!-- RTC section -->
                     <div class="rtc-section">
                         <div class="rtcheadview">
