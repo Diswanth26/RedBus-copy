@@ -711,6 +711,9 @@ a, a:hover, a:visited {
     gap: 1.5rem;
     scroll-behavior: smooth;
 }
+.cards-row::-webkit-scrollbar{
+    display: none;
+}
 .rtcback {
     width: 480px;
     border-radius: 16px;

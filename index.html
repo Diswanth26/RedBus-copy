@@ -308,11 +308,11 @@
                         </div>
                         <div class="rtc-card-section">
                             <div class="cards-row">
-                                <!-- <span class="left-arrow">
-                                    <span class="left-scroll">
+                                <span class="left-arrow">
+                                    <span class="left-scroll" id="lefts-scrolls">
                                         <i class="fa-solid fa-angle-left symbols-left"></i>
                                     </span>
-                                </span> -->
+                                </span>
                                 <div class="rtcback">
                                     <div class="rtcCards">
                                         <div class="rtcInfoMain">
@@ -980,14 +980,32 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <span class="right-arrow">
-                                    <span class="right-scroll">
-                                        <i class="fa-solid fa-angle-right symbols-right"></i>
+                                <span class="right-arrow">
+                                    <span class="right-scroll" id="rights-scrolls">
+                                        <i class="fa-solid fa-angle-right symbols-right" ></i>
                                     </span>
-                                </span> -->
+                                </span>
                             </div>
                         </div>
                     </div>
+                    <script>
+                          let scrollContainers=document.querySelector(".cards-row");
+                        let leftArrows=document.getElementById("lefts-scrolls");
+                        let rightArrows=document.getElementById("rights-scrolls");
+
+                        scrollContainers.addEventListener("wheel",(evt)=>{
+                            evt.preventDefault();
+                            scrollContainers.scrollLeft+=evt.deltaY;
+                        });
+
+                        leftArrows.addEventListener("click",()=>{
+                            scrollContainers.scrollLeft -= 500;
+                        });
+
+                        rightArrows.addEventListener("click",()=>{
+                            scrollContainers.scrollLeft += 500;
+                        });
+                    </script>
                     <div class="partialListContainer">
                         <!-- banner 2 -->
                         <div class="partialList">
