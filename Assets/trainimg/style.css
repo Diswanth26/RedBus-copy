@@ -342,7 +342,15 @@ form {
     height: 32px;
     width: 32px;
 }
-.search-label {
+.small-label{
+    position: absolute;
+    font-size: 1rem;
+    top: 1.5rem;
+    left: 5.2rem;
+    transition: all .3s linear;
+    color: #7e7e8c;
+}
+/* .search-label {
     font-size: 1.125rem;
     line-height: 1rem;
     color: #1d1d1d;
@@ -352,7 +360,7 @@ form {
     left: 5rem;
     transition: all .3s linear;
     cursor: pointer;
-}
+} */
 .search-input {
     border: none;
     outline: none;
