@@ -133,8 +133,8 @@
                                 <div class="offers-card1-section">
                                     <div class="cards-offers">
                                         <span class="left-arrow">
-                                            <span class="left-scroll">
-                                                <i class="fa-solid fa-angle-left symbols-left" id="left-scrolls"></i>
+                                            <span class="left-scroll" id="left-scrolls">
+                                                <i class="fa-solid fa-angle-left symbols-left"></i>
                                             </span>
                                         </span>
                                         <a href="./Assets/indexOffer.html">
@@ -267,8 +267,8 @@
                                             </div>
                                         </a>
                                         <span class="right-arrow">
-                                            <span class="right-scroll">
-                                                <i class="fa-solid fa-angle-right symbols-right" id="right-scrolls"></i>
+                                            <span class="right-scroll" id="right-scrolls">
+                                                <i class="fa-solid fa-angle-right symbols-right" ></i>
                                             </span>
                                         </span>
                                     </div>
@@ -284,7 +284,15 @@
                         scrollContainer.addEventListener("wheel",(evt)=>{
                             evt.preventDefault();
                             scrollContainer.scrollLeft+=evt.deltaY;
-                        })
+                        });
+
+                        leftArrow.addEventListener("click",()=>{
+                            scrollContainer.scrollLeft -= 500;
+                        });
+
+                        rightArrow.addEventListener("click",()=>{
+                            scrollContainer.scrollLeft += 500;
+                        });
 
                     </script>
 

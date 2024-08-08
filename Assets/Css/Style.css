@@ -474,6 +474,9 @@ a, a:hover, a:visited {
     gap: 1.5rem;
     scroll-behavior: smooth;
 }
+.cards-offers::-webkit-scrollbar{
+    display: none;
+}
 .offercards1{
     display: flex;
     width: 20.3rem;
@@ -610,6 +613,10 @@ a, a:hover, a:visited {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
+    opacity: 0;
+}
+.left-arrow:hover{
+    opacity: 1;
 }
 .left-scroll{
     position: absolute;
@@ -639,6 +646,10 @@ a, a:hover, a:visited {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
+    opacity: 0;
+}
+.right-arrow:hover{
+    opacity: 1;
 }
 .right-scroll{
     position: absolute;
