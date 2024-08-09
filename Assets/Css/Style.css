@@ -1251,7 +1251,11 @@ a, a:hover, a:visited {
     font-weight: 600;
     line-height: 1.5rem;
     color: rgb(29, 29, 29);
-    padding: 0.6rem 1rem;
+    padding: 0.6rem 1.8rem;
+}
+.countryname:hover{
+    background-color: #e6e1e1;
+    border-radius: 20px;
 }
 .contentDescription a{
     color: #0000A8;
