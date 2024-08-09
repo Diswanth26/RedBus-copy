@@ -171,6 +171,9 @@ a:-webkit-any-link {
     letter-spacing: -.31px;
     color: #9f9eff !important;
 }
+.crumb-link a{
+    text-decoration: underline;
+}
 .breadcrumb-wrapper .crumb-link {
     display: flex;
     align-items: center;
