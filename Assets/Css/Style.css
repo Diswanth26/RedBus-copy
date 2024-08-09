@@ -1300,6 +1300,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     margin-right: 1.5rem;
     border: none;
 }
+.bookbutton a{
+    color: #fff;
+}
 
 .footer_text{
     font-weight: 500;
