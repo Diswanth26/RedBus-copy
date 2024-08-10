@@ -25,6 +25,9 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: none;
 }
+.begin{
+    min-height: 100vh;
+}
 .nav-wrapper{
     position: fixed;
     width: 100%;
