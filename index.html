@@ -282,10 +282,10 @@
                         let leftArrow=document.getElementById("left-scrolls");
                         let rightArrow=document.getElementById("right-scrolls");
 
-                        scrollContainer.addEventListener("wheel",(evt)=>{
-                            evt.preventDefault();
-                            scrollContainer.scrollLeft+=evt.deltaY;
-                        });
+                        // scrollContainer.addEventListener("wheel",(evt)=>{
+                        //     evt.preventDefault();
+                        //     scrollContainer.scrollLeft+=evt.deltaY;
+                        // });
 
                         leftArrow.addEventListener("click",()=>{
                             scrollContainer.scrollLeft -= 500;
@@ -993,10 +993,10 @@
                         let leftArrows=document.getElementById("lefts-scrolls");
                         let rightArrows=document.getElementById("rights-scrolls");
 
-                        scrollContainers.addEventListener("wheel",(evt)=>{
-                            evt.preventDefault();
-                            scrollContainers.scrollLeft+=evt.deltaY;
-                        });
+                        // scrollContainers.addEventListener("wheel",(evt)=>{
+                        //     evt.preventDefault();
+                        //     scrollContainers.scrollLeft+=evt.deltaY;
+                        // });
 
                         leftArrows.addEventListener("click",()=>{
                             scrollContainers.scrollLeft -= 500;
