@@ -156,8 +156,8 @@ article {
 }
 .index_heading{
     text-align: center;
-    padding-bottom: 32px;
-    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 35px;
     font-size: 31px;
     word-spacing: 8px;
 }
@@ -199,9 +199,9 @@ h2 {
 .D113_ul_region, .D113_ul_region_rtc {
     margin: 22px 0;
 }
-.D_ul, .D113_ul_rtc {
-    margin-left: 16%;
-    padding: 25px 0;
+.D_ul, .ul_rtc {
+    margin-left: 4%;
+    padding: 0px 0;
     list-style: none;
 }
 .D113_item_rtc {
