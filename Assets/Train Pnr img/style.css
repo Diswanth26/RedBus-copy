@@ -141,3 +141,153 @@ a:-webkit-any-link {
 .icon {
     cursor: pointer;
 }
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+.pnrstatus-main .banner1 {
+    height: 27rem;
+    padding-top: 6.2rem;
+    position: relative;
+}
+.pnrstatus-main .breadcrumb-wrapper {
+    padding: 8px 0;
+    background: #1d1d1d;
+    margin-bottom: 0;
+    position: relative;
+    top: -1.5rem;
+}
+.breadcrumb-wrapper .breadcrumb-content {
+    width: 1128px;
+    display: flex;
+    margin: 0 auto;
+}
+.breadcrumb-wrapper .crumb-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.breadcrumb-wrapper .crumb-link, .breadcrumb-wrapper .crumb-link .crumb-href {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.31px;
+    color: #9f9eff !important;
+}
+.breadcrumb-wrapper .crumb-link .crumb-href:hover, .breadcrumb-wrapper .crumb-link .crumb-href:visited {
+    color: #9f9eff !important;
+}
+.crumb-link{
+    text-decoration: underline;
+}
+.breadcrumb-wrapper .crumb-dstn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.31px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.pnrstatus-main .banner {
+    height: 350px;
+    border-radius: 0;
+    position: relative;
+    top: -1.5rem;
+}
+.banner, .logo {
+    display: flex;
+}
+.banner {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3rem 9rem 0;
+    height: 35.5rem;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border-radius: 0 0 48px 48px;
+}
+.logo .text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    font-size: 40px;
+    line-height: 120%;
+    color: #fff;
+}
+.logo .rails-logo {
+    padding-left: 16px;
+}
+.irctc-logo {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+    padding-left: 16px;
+}
+.pnrstatus-main .irctc {
+    padding-left: 1rem;
+}
+.ris-wrapper, .ris-wrapper .ris-selector {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.ris-wrapper {
+    margin: 3rem 0 1.5rem;
+    grid-gap: 1rem;
+    gap: 1rem;
+}
+.ris-wrapper .ris-selector {
+    flex-direction: row;
+    padding: 8px 12px;
+    grid-gap: 16px;
+    gap: 16px;
+    background: #fff;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #1d1d1d;
+    width: -moz-max-content;
+    width: max-content;
+    cursor: pointer;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.ris-wrapper .radio-button-outer {
+    margin-right: unset;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #4a4a4a;
+}
+.ris-wrapper .radio-button-outer .radio-button-inner {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.ris-wrapper .red-border-radio {
+    border: 2px solid #d84e55;
+}
+.ris-wrapper .red-background {
+    background: #d84e55 !important;
+}
