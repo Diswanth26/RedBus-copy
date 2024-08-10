@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check PNR Status, IRCTC Train PNR Status Enquiry</title>
-    <link rel="shortcut icon" href="./Train Pnr img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./Train Pnr img/style.css">
+    <link rel="shortcut icon" href="./Train-Pnr-img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./Train-Pnr-img/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
                     <div class="nav-center">
                         <div class="nav-left nav-section">
                             <div class="bus-logo">
-                                <img src="./Train Pnr img/rb_logo.svg" alt="">
+                                <img src="./Train-Pnr-img/rb_logo.svg" alt="">
                             </div>
                             <a href="https://red-bus-copy.vercel.app/" class="nav-link ">Bus Tickets</a>
                             <a href="" class="nav-link active">redRail</a>
@@ -25,12 +25,12 @@
                         <div class="nav-right nav-section">
                             <a href="./indexHelp.html">
                                 <div class="nav-icon link-icon">
-                                    <img src="./Train Pnr img/help.svg" alt="help">
+                                    <img src="./Train-Pnr-img/help.svg" alt="help">
                                     <span class="nav-link">Help</span>
                                  </div>
                             </a>
                             <div class="nav-icon link-icon">
-                                <img src="./Train Pnr img/user_profile.svg" alt="help">
+                                <img src="./Train-Pnr-img/user_profile.svg" alt="help">
                                 <i class="fa-solid fa-angle-down downarrow icon"></i>
                             </div>
                         </div>
@@ -43,45 +43,55 @@
                     <div class="breadcrumb-content">
                         <div class="crumb-link">
                             <a href="https://red-bus-copy.vercel.app/" class="crumb-href">Home</a>
-                            <img src="./Train Pnr img/chevron_right.svg" alt="chevron_right" width="24" height="24" loading="lazy">
+                            <img src="./Train-Pnr-img/chevron_right.svg" alt="chevron_right" width="24" height="24" loading="lazy">
                         </div>
                         <div class="crumb-link">
                             <a href="https://red-bus-copy.vercel.app/" class="crumb-href">Trains</a>
-                            <img src="./Train Pnr img/chevron_right.svg" alt="chevron_right" width="24" height="24" loading="lazy">
+                            <img src="./Train-Pnr-img/chevron_right.svg" alt="chevron_right" width="24" height="24" loading="lazy">
                         </div>
                         <div class="crumb-dstn">PNR Status</div>
                     </div>
                 </div>
                 <!-- main banner section -->
-                <div class="banner" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./trainimg/main-background.avif);">
+                <div class="banner" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Train-Pnr-img/main-background.png);">
                     <div class="logo">
                         <span class="text">Check PNR Status</span>
-                        <img class="rails-logo" src="./Train Pnr img/rails_logo_white.svg" alt="rails logo" width="88" height="48">
+                        <img class="rails-logo" src="./Train-Pnr-img/rails_logo_white.svg" alt="rails logo" width="88" height="48">
                     </div>
                     <div class="irctc-logo">
-                        <img class="img" src="./Train Pnr img/irctc_logo_pnr.svg" alt="irctc logo" height="40px" width="40px">
+                        <img class="img" src="./Train-Pnr-img/irctc_logo_pnr.svg" alt="irctc logo" height="40px" width="40px">
                         <span class="irctc">Authorised by</span>
                         <span class="bold">&nbsp;IRCTC</span>
                     </div>
                     <div class="ris-wrapper">
-                        <div class="ris-selector">
-                            <p>Book Train tickets</p>
-                            <div class="radio-button-outer false">
-                                <div class="radio-button-inner false"></div>
+                        <a href="./indexTrain.html">
+                            <div class="ris-selector">
+                                <p>Book Train tickets</p>
+                                <div class="radio-button-outer false">
+                                    <div class="radio-button-inner false"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="ris-selector">
-                            <p>Check PNR Status</p>
-                            <div class="radio-button-outer red-border-radio">
-                                <div class="radio-button-inner red-background"></div>
+                        </a>
+                        <a href="./indexTrainPNR.html">
+                            <div class="ris-selector">
+                                <p>Check PNR Status</p>
+                                <div class="radio-button-outer red-border-radio">
+                                    <div class="radio-button-inner red-background"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="ris-selector">
-                            <p>Live Train Status</p>
-                            <div class="radio-button-outer false">
-                                <div class="radio-button-inner false"></div>
+                        </a>
+                        <a href="">
+                            <div class="ris-selector">
+                                <p>Live Train Status</p>
+                                <div class="radio-button-outer false">
+                                    <div class="radio-button-inner false"></div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
+                    </div>
+                    <div class="pnr-input">
+                        <input class="pnr-input-text" type="text" placeholder="Enter PNR Number" name="pnrNo" inputmode="numeric" value="" style="background-image: url(./Train-Pnr-img/pnr_icon.svg);">
+                        <button class="button  button pnr_disabled1">Check Status</button>
                     </div>
                 </div>
              </section>

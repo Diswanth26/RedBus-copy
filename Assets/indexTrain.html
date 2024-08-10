@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>redRail - 3X refund on waitlisted Train Ticket, Train Booking App</title>
-    <link rel="shortcut icon" href="./trainimg/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./train-img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="./trainimg/style.css">
+    <link rel="stylesheet" href="./train-img/style.css">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
             <div class="nav-center">
                 <div class="nav-left nav-section">
                     <div class="bus-logo">
-                        <img src="./trainimg/rb_logo.svg" alt="">
+                        <img src="./train-img/rb_logo.svg" alt="">
                     </div>
                     <a href="https://red-bus-copy.vercel.app/" class="nav-link ">Bus Tickets</a>
                     <a href="" class="nav-link active">redRail</a>
@@ -24,12 +24,12 @@
                 <div class="nav-right nav-section">
                     <a href="./indexHelp.html">
                         <div class="nav-icon link-icon">
-                            <img src="./trainimg/help.svg" alt="help">
+                            <img src="./train-img/help.svg" alt="help">
                             <span class="nav-link">Help</span>
                          </div>
                     </a>
                     <div class="nav-icon link-icon">
-                        <img src="./trainimg/user_profile.svg" alt="help">
+                        <img src="./train-img/user_profile.svg" alt="help">
                         <i class="fa-solid fa-angle-down downarrow icon"></i>
                     </div>
                 </div>
@@ -43,13 +43,13 @@
                 <div class="breadcrumb-content">
                     <div class="crumb-link">
                         <a href="https://red-bus-copy.vercel.app/" class="crumb-href">Home</a>
-                        <img src="./trainimg/chevron_right.svg" alt="chevron_right" width="24" height="24" loading="lazy">
+                        <img src="./train-img/chevron_right.svg" alt="chevron_right" width="24" height="24" loading="lazy">
                     </div>
                     <div class="crumb-dstn">Trains</div>
                 </div>
             </div>
             <div class="rails-branding">
-                <img src="./trainimg/rails_logo_white.svg" alt="train" class="rails-logo">
+                <img src="./train-img/rails_logo_white.svg" alt="train" class="rails-logo">
                 <div class="logo">
                     <div class="text">redRail: Train Ticket Booking</div>
                 </div>
@@ -60,34 +60,40 @@
             </div>
             <div class="widget_overlay">
                 <div class="ris-wrapper">
-                    <div class="ris-selector">
-                        <p>Book Train tickets</p>
-                        <div class="radio-button-outer red-border-radio">
-                            <div class="radio-button-inner red-background"></div>
+                    <a href="./indexTrain.html">
+                        <div class="ris-selector">
+                            <p>Book Train tickets</p>
+                            <div class="radio-button-outer  red-border-radio">
+                                <div class="radio-button-inner red-background"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="ris-selector">
-                        <p>Check PNR Status</p>
-                        <div class="radio-button-outer false">
-                            <div class="radio-button-inner false"></div>
+                    </a>
+                    <a href="./indexTrainPNR.html">
+                        <div class="ris-selector">
+                            <p>Check PNR Status</p>
+                            <div class="radio-button-outer false">
+                                <div class="radio-button-inner false"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="ris-selector">
-                        <p>Live Train Status</p>
-                        <div class="radio-button-outer false">
-                            <div class="radio-button-inner false"></div>
+                    </a>
+                    <a href="">
+                        <div class="ris-selector">
+                            <p>Live Train Status</p>
+                            <div class="radio-button-outer false">
+                                <div class="radio-button-inner false"></div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="search-widget-wrapper">
                     <div class="search-autosuggest-wrapper">
                         <form class="search-widget">
                             <div class="search-box search-box-src form-control">
                                 <span class="exchange-icon">
-                                    <img src="./trainimg/exchange_station.svg" alt="exchange icon">
+                                    <img src="./train-img/exchange_station.svg" alt="exchange icon">
                                 </span>
                                 <span class="train-icon">
-                                    <img src="./trainimg/train_src.svg" alt="train">
+                                    <img src="./train-img/train_src.svg" alt="train">
                                 </span>
                                 <label for="src" class="small-label  search-label">From</label>
                                 <div>
@@ -96,7 +102,7 @@
                             </div>
                             <div class="search-box form-control">
                                 <span class="train-icon">
-                                    <img src="./trainimg/train_dest.svg" alt="train from">
+                                    <img src="./train-img/train_dest.svg" alt="train from">
                                 </span>
                                 <label for="dst" class="small-label search-label">To</label>
                                 <div>
@@ -105,7 +111,7 @@
                             </div>
                             <div class="home_date_wrap" tabindex="0">
                                 <div class="home_calendar">
-                                    <img alt="calendar_icon" class="train-icon" src="./trainimg/calendar_icon.svg">
+                                    <img alt="calendar_icon" class="train-icon" src="./train-img/calendar_icon.svg">
                                     <div class="date-text">
                                         <div class="home_date_day">Tue</div>
                                         <div class="home_date_month">30 Jul</div>
@@ -139,7 +145,7 @@
                 <div class="offers-carousel">
                     <article class="offers_card">
                         <div class="img_wrap">
-                            <img class="offer_img" alt="offer_icon" src="./trainimg/Piggybank.png">
+                            <img class="offer_img" alt="offer_icon" src="./train-img/Piggybank.png">
                             <div class="view_details">view details</div>
                         </div>
                         <div class="content_wrap">
@@ -156,7 +162,7 @@
                     </article>
                     <article class="offers_card">
                         <div class="img_wrap">
-                            <img class="offer_img" alt="offer_icon" src="./trainimg/MWeb8080ICICIcopy 2.png">
+                            <img class="offer_img" alt="offer_icon" src="./train-img/MWeb8080ICICIcopy 2.png">
                             <div class="view_details">view details</div>
                         </div>
                         <div class="content_wrap">
@@ -184,7 +190,7 @@
                 <div class="features-list">
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <img loading="lazy" src="./trainimg/partner_v2.svg" alt="IRCTC Authorised Partner">
+                            <img loading="lazy" src="./train-img/partner_v2.svg" alt="IRCTC Authorised Partner">
                         </div>
                         <div class="card-content">
                             <h4 class="card-heading">IRCTC Authorised Partner</h4>
@@ -202,7 +208,7 @@
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <img loading="lazy" src="./trainimg/support_v2.svg" alt="Hassle free customer care">
+                            <img loading="lazy" src="./train-img/support_v2.svg" alt="Hassle free customer care">
                         </div>
                         <div class="card-content">
                             <h4 class="card-heading">Hassle free customer care</h4>
@@ -211,7 +217,7 @@
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">
-                            <img loading="lazy" src="./trainimg/booking_v2.svg" alt="Fastest confirmed booking experience">
+                            <img loading="lazy" src="./train-img/booking_v2.svg" alt="Fastest confirmed booking experience">
                         </div>
                         <div class="card-content">
                             <h4 class="card-heading">Fastest confirmed booking experience</h4>
@@ -249,7 +255,7 @@
                         </div>
                     </div>
                     <div class="steps-image-container">
-                        <img src="./trainimg/mob2_cont.avif" alt="mob-img" class="steps-image">
+                        <img src="./train-img/mob2_cont.avif" alt="mob-img" class="steps-image">
                     </div>
                 </div>
             </div>
@@ -378,7 +384,7 @@
                             <a class="footer-links" href=""> Agent Registeration</a>
                         </li>
                         <li>
-                            <a class="footer-links" href="https://www.icicilombard.com/"> Insurance Partner</a>
+                            <a class="footer-links" href=""> Insurance Partner</a>
                         </li>
                         <li>
                             <a class="footer-links" href=""> User Agreement</a>
@@ -421,14 +427,14 @@
                             <a class="footer-links" href="" rel="nofollow"> Makemytrip Bus</a>
                         </li>
                         <li>
-                            <a class="footer-links" href="https://www.makemytrip.com/hotels/"> Makemytrip Hotels</a>
+                            <a class="footer-links" href=""> Makemytrip Hotels</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="right-block">
                 <div class="img-desc">
-                    <img alt="redbus_logo" src="./trainimg/rb_logo.svg">
+                    <img alt="redbus_logo" src="./train-img/rb_logo.svg">
                 </div>
                 <p class="footer-about">redBus is the worlds largest online bus ticket booking service trusted by over 8 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.</p>
                 <p class="footer-about">Ⓒ 2024 Redbus India Private Limited (formerly known as ‘Ibibo Group Private Limited’). </p>
