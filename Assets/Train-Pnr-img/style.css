@@ -526,3 +526,117 @@ p {
     font-size: 14px;
     line-height: 17px;
 }
+.secondary-contents .tables{
+    display: flex;
+}
+.secondary-contents .table1 {
+    padding-right: 30px;
+    width: 50%;
+}
+.secondary-contents table, .secondary-contents td, .secondary-contents th {
+    border: 1px solid #d1d1d1;
+    border-collapse: collapse;
+}
+.secondary-contents td, .secondary-contents th {
+    padding: .5rem;
+    font-size: 12px;
+    line-height: 15px;
+}
+.secondary-contents .secondary-item{
+    text-align: center;
+    background: #465986;
+    color: #fff;
+    width: 100px;
+}
+.secondary-contents .secondary-item-desc {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    background: #465986;
+    color: #fff;
+    width: 360px;
+}
+.secondary-contents .secondary-data {
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3e3e52;
+    font-weight: 700;
+    background: #faf1f2;
+}
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}
+.footer-wrapper {
+    padding: 3rem;
+    background: #1b2230;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-center {
+    width: 1128px;
+    display: flex;
+}
+.footer-center .left-block {
+    width: 70%;
+    display: flex;
+    grid-gap: .5rem;
+    gap: .5rem;
+}
+.footer-center .footer-col {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.footer-center .footer-col-heading {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: #7e7e8c;
+    margin-top: 0;
+}
+.footer-center .footer-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+li, ul {
+    display: inherit;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+.footer-center .footer-links {
+    text-decoration: none;
+    color: white;
+    font-size: .75rem;
+    line-height: 1.25rem;
+}
+.footer-center .right-block {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-center .img-desc {
+    display: inline;
+    width: 4.063rem;
+    height: 2.625rem;
+}
+.footer-center .img-desc img {
+    height: 100%;
+    width: 100%;
+}
+.footer-center .footer-about {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
