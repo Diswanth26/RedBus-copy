@@ -194,6 +194,10 @@ li {
     margin-left: .6rem;
     width: 22px;
 }
+.secondary-item a{
+    color: #424141;
+}
+
 .name-secondary-tool{
     font-family: "Nunito Sans", sans-serif;
     white-space: nowrap;
