@@ -494,3 +494,35 @@ p {
     gap: 8px;
     cursor: pointer;
 }
+.seco-main {
+    margin: 0 auto;
+    width: 1128px;
+    background: #fff;
+}
+.secondary-contents{
+    background: #fff;
+    padding: 1rem 1rem 1.25rem;
+    color: #3e3e52;
+    margin-bottom: .25rem;
+    line-height: 1.6rem;
+}
+.secondary-contents h1, .secondary-contents h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+}
+.secondary-contents li {
+    display: list-item;
+    line-height: 2rem;
+}
+.secondary-contents strong{
+    color: #d84e55;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    
+}
+.secondary-contents h3 {
+    font-size: 14px;
+    line-height: 17px;
+}
