@@ -335,3 +335,162 @@ p {
     border: none;
     border-radius: 0 8px 8px 0;
 }
+.consistent-distance {
+    margin-top: 2rem;
+}
+.marginTop {
+    margin-top: 3.3rem;
+}
+.top-ten-trains{
+    background: #f3f4f9;
+    min-height: 1569px;
+}
+.trains-data{
+    padding: 32px 0;
+    width: 1128px;
+    margin: 0 auto;
+}
+.top-heading{
+    height: 45px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+.showcase .trains-available{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 20px;
+    grid-gap: 3px;
+    gap: 3px;
+    height: 114px;
+    background: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.showcase .train-col{
+    flex-basis: 25.33%;
+}
+.showcase .train-col .train-name{
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.showcase .train-col .days{
+    margin-top: 2px;
+    display: flex;
+    margin-bottom: 4px;
+}
+.showcase .train-col .runningDays{
+    margin-right: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: #747474;
+}
+.showcase .train-col .seats{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    color: #747474;
+    margin-bottom: 4px;
+}
+.showcase .train-dst{
+    padding: 20px;
+    grid-gap: 20px;
+    gap: 20px;
+    width: 530px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: 54.33%;
+}
+.showcase .train-dst .sub-container1 {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-basis: 46.33%;
+}
+.showcase .train-dst .time {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1d1d1d;
+}
+.showcase .train-dst .station-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1d1d1d;
+}
+.showcase .train-dst .station-code {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    color: #1d1d1d;
+}
+.showcase .train-dst  .sub-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 28.33%;
+}
+.showcase .train-dst .duration-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: .25rem;
+    gap: .25rem;
+}
+.showcase .train-dst .duration-time .connecting-line {
+    width: .5rem;
+    border-top: .0625rem solid #e5e5e5;
+}
+.showcase .train-dst .duration-time .duration {
+    width: -moz-max-content;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #747474;
+}
+.showcase .train-dst .sub-container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-basis: 47.33%;
+}
+.showcase .train-container4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    flex-basis: 20.33%;
+}
+.showcase .train-container4 .availability-button {
+    border: none;
+    background: #465986;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    grid-gap: 8px;
+    gap: 8px;
+    cursor: pointer;
+}
